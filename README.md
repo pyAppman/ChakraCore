@@ -56,3 +56,5 @@ execution contexts与特定的runtime绑定，并且在这个runtime内执行代
 有兴趣的朋友可以补充下Linux/Mac 下的使用。
 
 .dll和.so文件下载可自行网上搜索，也可以直接在本站下载
+# 最后
+很多东西都转自于 https://www.cnblogs.com/fyter/p/chakracore-faq.html，写的不好，大家轻点
