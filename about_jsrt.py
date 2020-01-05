@@ -104,3 +104,4 @@ JsRuntimeAttributeDisableExecutablePageAllocation = 256  # 公开,运行时将�
 JS_INVALID_REFERENCE = 0  # 公开,无效的引用。JsRef
 JS_INVALID_RUNTIME_HANDLE = 0  # 公开,无效的运行时句柄。JsRuntimeHandle
 JS_SOURCE_CONTEXT_NONE = -1  # 属性标识符。JsSourceContext
+
