@@ -15,7 +15,7 @@ JsValueType_JsTypedArray = 11  # 公开,该值是JavaScript类型的数组对象
 JsValueType_JsDataView = 12  # 公开,该值是JavaScriptDataView对象值。
 
 
-class ChaCore:
+class ChakraCore:
 
     def __init__(self):
         self.source = ''
