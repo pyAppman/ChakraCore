@@ -52,6 +52,7 @@ execution contexts与特定的runtime绑定，并且在这个runtime内执行代
 在JSAPI中，JSRuntime是表示JavaScript引擎实例的顶级对象。程序通常只有一个JSRuntime，即使它有很多线程。JSRuntime是JavaScript对象的universe，一个JSRuntime里的JavaScript无法前往别的JSRuntime。
 所有JavaScript代码和大多数JSAPI的调用都在JSContext中运行。JSContext是JSRuntime的子代。一个Context可以运行script。每一个Context都包含全局对象和执行堆栈，异常句柄，错误报告和一些语言选项。
 # 注意
-由于网上所找到的有限，没有针对python方面的使用，所以根据https://xz.aliyun.com/t/2450 做了一些处理，写了个python使用，本人python版本32位3.6，dll是32位所以务必用32位python，本代码当前仅支持在windows系统下调用ChakraCore.dll，对于Linux需要ChakraCore.so，详细后面抽时间补充下。有兴趣的朋友可以补充下Linux/Mac 下的使用。
+由于网上所找到的有限，没有针对python方面的使用，所以根据https://xz.aliyun.com/t/2450 做了一些处理，写了个python使用，本人python版本32位3.6.1，dll是32位所以务必用32位python，本代码当前仅支持在windows系统下调用ChakraCore.dll，对于Linux需要ChakraCore.so，详细后面抽时间补充下。对于js返回值类型，只写了字符串，对于object和list以及其他返回类型，还需要自己参考文档重写。
+有兴趣的朋友可以补充下Linux/Mac 下的使用。
 
 .dll和.so文件下载可自行网上搜索，也可以直接在本站下载
